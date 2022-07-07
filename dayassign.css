@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif
+}
+
+
+
+.section1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.text {
+    font-size: 26px;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.button {
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.text2 {
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+.partition {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.partition>div {
+    font-size: 35px;
+    margin: 10px;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+
+
+}
+
+.bottom {
+
+    font-size: 1.2rem;
+
+}
+
+#red {
+    border: 4px solid red;
+    color: red;
+    background-color: rgb(232, 168, 168);
+}
+
+.input-form {
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.input1 {
+    height: 30px;
+    width: 500px;
+    border-top: 0;
+    border-bottom: 2px solid rgb(179, 170, 170);
+    border-right: 0;
+    border-left: 0;
+
+
+
+}
+
+input {
+    height: 50px;
+    width: 500px;
+    border: none;
+    background-color: rgb(247, 236, 236);
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
+.card {
+    width: 30%;
+    margin: 10px;
+    box-sizing: border-box;
+
+}
+
+.card-body {
+    padding: 20px;
+
+}
+
+.card-title {
+
+    font-size: 2rem;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.card-desc {
+    padding: 30px;
+    line-height: 1.2;
+    margin-left: 60px;
+    text-align: center;
+}
+
+
+
+
+.section4 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+
+}
+
+.image-style {
+
+
+    width: 100px;
+    height: 100px;
+
+
+
+
+    margin-top: 50px;
+    margin-left: 10px;
+
+
+
+}
+
+.box {
+    height: 200px;
+    width: 900px;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.inputbox {
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+
+    height: 200px;
+    display: flex;
+
+    margin-top: 60px;
+
+
+}
+
+.footer-desc {
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+
+}
+
+span {
+    color: tomato;
+}
+
+.image-style2 {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+
+    border-radius: 50%;
+}
+
+
+.section6 {
+    background-color: rgb(224, 191, 147);
+}
+
+.centering{
+    text-align: center;
+}
